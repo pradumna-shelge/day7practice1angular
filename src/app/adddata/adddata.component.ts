@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { EmployeeService } from '../servercies/employee.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ValidateUrl } from 'src/shared/url.validator';
-import { datev } from 'src/shared/date';
+import { ValidateUrl } from '../shared/url.validator';
+import { datev } from '../shared/date';
 
 
 @Component({
