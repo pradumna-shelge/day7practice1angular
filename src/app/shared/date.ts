@@ -7,7 +7,7 @@ export function datev(control: AbstractControl) {
     p = new Date(control.value);
     let ny = p.getFullYear();
 
-  if (!(Number(year) > Number(ny)+17)) {
+  if (!(Number(year) -Number(ny) > 17)) {
     return { datev: true };
   }
   return null;
