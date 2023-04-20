@@ -7,12 +7,14 @@ import { AdddataComponent } from './adddata/adddata.component';
 import { GetdataComponent } from './getdata/getdata.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EmployeeService } from './servercies/employee.service';
+import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdddataComponent,
     GetdataComponent,
+    WelcomepageComponent,
     
   ],
   imports: [
